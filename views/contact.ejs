@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/index.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  </head>
+  <body>
+    <nav>
+      <a href="/home">Home</a>
+      <a href="/service">Our Services</a>
+      <a href="/contact" class="contact">Contact Us</a>
+    </nav>
+
+    <section class="form">
+      <h1 class="contact">Contact Us</h1>
+      <h4 class="contact">We will get back to you ASAP!</h4>
+      <br /><br />
+      <form action="your_email@example.com" method="post">
+        
+        <input
+        
+          type="text"
+          id="name"
+          class="general"
+          name="name"
+          placeholder="Name"
+          required
+          <i class="fa-solid fa-person"></i>
+        /><br /><br />
+
+        <input
+          type="email"
+          id="email"
+          class="general"
+          name="email"
+          placeholder="Email"
+          required
+        /><br /><br />
+
+        <input
+          type="number"
+          name="number"
+          id="number"
+          class="general"
+          placeholder="Phone Number"
+          required
+        />
+        <br /><br />
+
+        <textarea
+          name="message"
+          id="message"
+          class="general"
+          placeholder="Write your message"
+        ></textarea
+        ><br /><br />
+
+        <input type="submit" value="submit" id="submit" />
+      </form>
+    </section>
+  </body>
+</html>

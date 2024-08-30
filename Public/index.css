@@ -1,0 +1,72 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+nav {
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact {
+  text-align: center;
+}
+
+.home {
+  text-align: center;
+}
+
+.general {
+  height: 35px;
+  width: 350px;
+  text-align: center;
+  align-items: center;
+  border-radius: 50px;
+  border-color: blue;
+}
+
+#submit {
+  background-color: blue;
+  color: white;
+  width: 350px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.form {
+  text-align: center;
+  background-color: grey;
+}
+
+.contact {
+  padding: 20px 0px 0px 0px;
+}
+
+body {
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  background-color: lightcoral;
+  padding: 50px;
+}
